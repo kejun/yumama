@@ -1,0 +1,570 @@
+[
+  {
+    "id": "102248621",
+    "slug": "braised-yellow-croaker",
+    "title": "红烧黄花鱼",
+    "category": "鱼鲜",
+    "summary": "先煎后焖，再把浓浓的汤汁浇回鱼上。",
+    "source": {
+      "title": "红烧黄花鱼",
+      "author": "荧芮",
+      "url": "https://m.xiachufang.com/recipe/102248621/",
+      "retrievedAt": "2026-10-06"
+    },
+    "cover": "assets/recipes/102248621/cover.jpg",
+    "ingredients": [
+      {
+        "name": "黄鱼",
+        "amount": "2条"
+      },
+      {
+        "name": "姜",
+        "amount": "12片"
+      },
+      {
+        "name": "蒜",
+        "amount": "6瓣"
+      },
+      {
+        "name": "葱",
+        "amount": "适量"
+      },
+      {
+        "name": "白糖",
+        "amount": "10克"
+      },
+      {
+        "name": "生抽",
+        "amount": "30克"
+      },
+      {
+        "name": "老抽",
+        "amount": "10克"
+      },
+      {
+        "name": "盐",
+        "amount": "10克"
+      },
+      {
+        "name": "醋",
+        "amount": "10克"
+      },
+      {
+        "name": "料酒",
+        "amount": "50克"
+      },
+      {
+        "name": "蚝油",
+        "amount": "原作未注明",
+        "note": "步骤中使用"
+      },
+      {
+        "name": "辣椒",
+        "amount": "原作未注明",
+        "note": "步骤中使用"
+      },
+      {
+        "name": "香菜",
+        "amount": "原作未注明",
+        "note": "步骤中使用"
+      },
+      {
+        "name": "水淀粉",
+        "amount": "原作未注明",
+        "note": "步骤中使用"
+      }
+    ],
+    "steps": [
+      {
+        "title": "清理鱼身",
+        "text": "黄花鱼解冻后，处理鱼鳞与内脏，清洗干净。",
+        "image": "assets/recipes/102248621/step-01.jpg",
+        "sourceSteps": [
+          1
+        ]
+      },
+      {
+        "title": "划刀腌制",
+        "text": "鱼身两侧划斜口，放姜、葱、料酒、盐和生抽，腌 30 分钟。",
+        "image": "assets/recipes/102248621/step-02.jpg",
+        "sourceSteps": [
+          2
+        ],
+        "timerSeconds": 1800
+      },
+      {
+        "title": "煎至金黄",
+        "text": "热锅加油，用中小火煎鱼，两侧上色后盛出。",
+        "image": "assets/recipes/102248621/step-03.jpg",
+        "sourceSteps": [
+          3
+        ]
+      },
+      {
+        "title": "调汁炝锅",
+        "text": "混合料酒、生抽、老抽、醋、糖与蚝油。锅中煸香辣椒、葱姜。",
+        "image": "assets/recipes/102248621/step-04.jpg",
+        "sourceSteps": [
+          4
+        ]
+      },
+      {
+        "title": "入锅焖煮",
+        "text": "加酱汁和能没过鱼的水，煮开后放鱼与香菜，中火焖约 20 分钟。期间用勺浇汁。",
+        "image": "assets/recipes/102248621/step-05.jpg",
+        "sourceSteps": [
+          5,
+          6
+        ],
+        "timerSeconds": 1200
+      },
+      {
+        "title": "盛鱼勾芡",
+        "text": "鱼熟透入味后盛盘。捞出锅里的香料，加水淀粉，大火收浓。",
+        "image": "assets/recipes/102248621/step-08.jpg",
+        "sourceSteps": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "title": "浇汁上桌",
+        "text": "把收好的汤汁淋在鱼上，最后放香菜。",
+        "image": "assets/recipes/102248621/step-10.jpg",
+        "sourceSteps": [
+          10
+        ]
+      }
+    ],
+    "tips": [
+      "蚝油、辣椒、香菜、水淀粉见原作步骤，但原作用料表未给分量；本站不推测用量。",
+      "表中盐、生抽等是原作用量，腌制与酱汁的分配比例未注明，可按口味调整。"
+    ],
+    "gallery": [
+      {
+        "image": "assets/recipes/102248621/step-01.jpg",
+        "label": "原作步骤 1"
+      },
+      {
+        "image": "assets/recipes/102248621/step-02.jpg",
+        "label": "原作步骤 2"
+      },
+      {
+        "image": "assets/recipes/102248621/step-03.jpg",
+        "label": "原作步骤 3"
+      },
+      {
+        "image": "assets/recipes/102248621/step-04.jpg",
+        "label": "原作步骤 4"
+      },
+      {
+        "image": "assets/recipes/102248621/step-05.jpg",
+        "label": "原作步骤 5"
+      },
+      {
+        "image": "assets/recipes/102248621/step-06.jpg",
+        "label": "原作步骤 6"
+      },
+      {
+        "image": "assets/recipes/102248621/step-07.jpg",
+        "label": "原作步骤 7"
+      },
+      {
+        "image": "assets/recipes/102248621/step-08.jpg",
+        "label": "原作步骤 8"
+      },
+      {
+        "image": "assets/recipes/102248621/step-09.jpg",
+        "label": "原作步骤 9"
+      },
+      {
+        "image": "assets/recipes/102248621/step-10.jpg",
+        "label": "原作步骤 10"
+      }
+    ]
+  },
+  {
+    "id": "103730028",
+    "slug": "braised-hairtail",
+    "title": "红烧带鱼",
+    "category": "鱼鲜",
+    "summary": "薄薄一层面粉，煎出金黄鱼皮，再小火入味。",
+    "source": {
+      "title": "零失误的红烧带鱼，经典家常菜，吃了就忘不掉的味道",
+      "author": "糖宝MM木木",
+      "url": "https://m.xiachufang.com/recipe/103730028/",
+      "retrievedAt": "2026-10-06"
+    },
+    "cover": "assets/recipes/103730028/cover.jpg",
+    "ingredients": [
+      {
+        "name": "带鱼",
+        "amount": "两条"
+      },
+      {
+        "name": "生抽",
+        "amount": "3勺"
+      },
+      {
+        "name": "老抽",
+        "amount": "1勺"
+      },
+      {
+        "name": "蚝油",
+        "amount": "1勺"
+      },
+      {
+        "name": "香醋",
+        "amount": "1勺"
+      },
+      {
+        "name": "料酒",
+        "amount": "1勺"
+      },
+      {
+        "name": "白糖",
+        "amount": "10克"
+      },
+      {
+        "name": "花椒八角干辣椒",
+        "amount": "如图"
+      },
+      {
+        "name": "葱姜蒜",
+        "amount": "适量"
+      },
+      {
+        "name": "面粉",
+        "amount": "30克"
+      }
+    ],
+    "steps": [
+      {
+        "title": "切段腌制",
+        "text": "带鱼洗净切段，加葱姜蒜和料酒，至少腌 20 分钟。",
+        "image": "assets/recipes/103730028/step-01.jpg",
+        "sourceSteps": [
+          1
+        ],
+        "timerSeconds": 1200
+      },
+      {
+        "title": "两面裹粉",
+        "text": "把面粉倒入盘中，让鱼段两面均匀沾粉。",
+        "image": "assets/recipes/103730028/step-02.jpg",
+        "sourceSteps": [
+          2
+        ]
+      },
+      {
+        "title": "小火煎鱼",
+        "text": "锅中加油，小火煎至两面金黄，盛出。等一面定型后再翻面。",
+        "image": "assets/recipes/103730028/step-03.jpg",
+        "sourceSteps": [
+          3
+        ]
+      },
+      {
+        "title": "调好料汁",
+        "text": "混合生抽 3 勺，老抽、香醋、料酒、蚝油各 1 勺，再加糖。",
+        "image": "assets/recipes/103730028/step-04.jpg",
+        "sourceSteps": [
+          4
+        ]
+      },
+      {
+        "title": "炒香配料",
+        "text": "少量油煸香葱姜蒜，加入八角、花椒、干辣椒及煎好的带鱼。",
+        "image": "assets/recipes/103730028/step-05.jpg",
+        "sourceSteps": [
+          5,
+          6
+        ]
+      },
+      {
+        "title": "加汁炖煮",
+        "text": "倒入料汁和没过鱼的热水，盖锅，小火炖约 10 分钟，确认熟透。",
+        "image": "assets/recipes/103730028/step-08.jpg",
+        "sourceSteps": [
+          7,
+          8
+        ],
+        "timerSeconds": 600
+      },
+      {
+        "title": "开盖收汁",
+        "text": "转大火收浓汤汁后装盘，尽量少翻动鱼段。",
+        "image": "assets/recipes/103730028/step-09.jpg",
+        "sourceSteps": [
+          9,
+          10
+        ]
+      }
+    ],
+    "tips": [
+      "白糖用料表写 10 克，原作步骤写一小勺或 3 颗冰糖；可按口味择一调整。",
+      "花椒、八角和干辣椒原作只写“如图”，没有精确分量。腌鱼另需料酒，分量未注明。"
+    ],
+    "gallery": [
+      {
+        "image": "assets/recipes/103730028/step-01.jpg",
+        "label": "原作步骤 1"
+      },
+      {
+        "image": "assets/recipes/103730028/step-02.jpg",
+        "label": "原作步骤 2"
+      },
+      {
+        "image": "assets/recipes/103730028/step-03.jpg",
+        "label": "原作步骤 3"
+      },
+      {
+        "image": "assets/recipes/103730028/step-04.jpg",
+        "label": "原作步骤 4"
+      },
+      {
+        "image": "assets/recipes/103730028/step-05.jpg",
+        "label": "原作步骤 5"
+      },
+      {
+        "image": "assets/recipes/103730028/step-06.jpg",
+        "label": "原作步骤 6"
+      },
+      {
+        "image": "assets/recipes/103730028/step-07.jpg",
+        "label": "原作步骤 7"
+      },
+      {
+        "image": "assets/recipes/103730028/step-08.jpg",
+        "label": "原作步骤 8"
+      },
+      {
+        "image": "assets/recipes/103730028/step-09.jpg",
+        "label": "原作步骤 9"
+      },
+      {
+        "image": "assets/recipes/103730028/step-10.jpg",
+        "label": "原作步骤 10"
+      }
+    ]
+  },
+  {
+    "id": "104361302",
+    "slug": "pan-seared-steak",
+    "title": "香煎厚切牛排",
+    "category": "肉食",
+    "summary": "擦干、煎香、测温、静置，把握每一个关键点。",
+    "source": {
+      "title": "煎一块好牛排，你需要知道的一切",
+      "author": "VS的周末厨房",
+      "url": "https://m.xiachufang.com/recipe/104361302/",
+      "retrievedAt": "2026-10-06"
+    },
+    "cover": "assets/recipes/104361302/cover.jpg",
+    "ingredients": [
+      {
+        "name": "牛排",
+        "amount": "1块"
+      },
+      {
+        "name": "盐",
+        "amount": "少许"
+      },
+      {
+        "name": "黑胡椒（整粒）",
+        "amount": "少许"
+      },
+      {
+        "name": "黄油",
+        "amount": "1块"
+      },
+      {
+        "name": "菜油",
+        "amount": "少许"
+      },
+      {
+        "name": "大蒜",
+        "amount": "一整头"
+      },
+      {
+        "name": "迷迭香和百里香",
+        "amount": "可选项"
+      }
+    ],
+    "steps": [
+      {
+        "title": "准备牛排",
+        "text": "选厚约 3–4 厘米的牛排；减少反复冻融。备好夹子、厨房纸和食物温度计。",
+        "image": "assets/recipes/104361302/step-01.jpg",
+        "sourceSteps": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "title": "擦干表面",
+        "text": "用厨房纸吸去表面水分，便于煎出焦香外壳。",
+        "image": "assets/recipes/104361302/step-04.jpg",
+        "sourceSteps": [
+          4
+        ]
+      },
+      {
+        "title": "两面调味",
+        "text": "两侧撒盐和现磨黑胡椒。",
+        "image": "assets/recipes/104361302/step-06.jpg",
+        "sourceSteps": [
+          6,
+          7
+        ]
+      },
+      {
+        "title": "准备测温",
+        "text": "熟度不能只看颜色或煎制时间。用温度计测量牛排最厚处的中心温度。",
+        "image": "assets/recipes/104361302/step-08.jpg",
+        "sourceSteps": [
+          8,
+          9
+        ]
+      },
+      {
+        "title": "热锅煎香",
+        "text": "锅内放少量适合煎炒的油，热锅后下牛排。两面煎上色后转小火，厚牛排继续缓慢加热。",
+        "image": "assets/recipes/104361302/step-12.jpg",
+        "sourceSteps": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "title": "翻面与煎边",
+        "text": "用夹子翻动，四周边缘也要煎到。结合中心温度调整火力，避免表面焦黑。 按安全温度参考，中心达到 63°C 后再离火。",
+        "image": "assets/recipes/104361302/step-13.jpg",
+        "sourceSteps": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "title": "静置调味",
+        "text": "出锅后静置约 5 分钟。可放黄油，用切开的大蒜涂抹。香草可选，避免久煎烧焦。",
+        "image": "assets/recipes/104361302/step-16.jpg",
+        "sourceSteps": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "timerSeconds": 300
+      },
+      {
+        "title": "切开享用",
+        "text": "静置后再切片，装盘食用。",
+        "image": "assets/recipes/104361302/step-20.jpg",
+        "sourceSteps": [
+          20,
+          21
+        ]
+      }
+    ],
+    "tips": [
+      "本站归纳操作步骤；原作的肉品、熟成与熟度讨论见来源链接。",
+      "整块牛排的食品安全参考：中心至少 63°C，离火后至少静置 3 分钟（FoodSafety.gov）。原作偏低熟度的示例不作为安全标准。"
+    ],
+    "gallery": [
+      {
+        "image": "assets/recipes/104361302/step-01.jpg",
+        "label": "原作步骤 1"
+      },
+      {
+        "image": "assets/recipes/104361302/step-02.jpg",
+        "label": "原作步骤 2"
+      },
+      {
+        "image": "assets/recipes/104361302/step-03.jpg",
+        "label": "原作步骤 3"
+      },
+      {
+        "image": "assets/recipes/104361302/step-04.jpg",
+        "label": "原作步骤 4"
+      },
+      {
+        "image": "assets/recipes/104361302/step-05.jpg",
+        "label": "原作步骤 5"
+      },
+      {
+        "image": "assets/recipes/104361302/step-06.jpg",
+        "label": "原作步骤 6"
+      },
+      {
+        "image": "assets/recipes/104361302/step-07.jpg",
+        "label": "原作步骤 7"
+      },
+      {
+        "image": "assets/recipes/104361302/step-08.jpg",
+        "label": "原作步骤 8"
+      },
+      {
+        "image": "assets/recipes/104361302/step-09.jpg",
+        "label": "原作步骤 9"
+      },
+      {
+        "image": "assets/recipes/104361302/step-10.jpg",
+        "label": "原作步骤 10"
+      },
+      {
+        "image": "assets/recipes/104361302/step-11.jpg",
+        "label": "原作步骤 11"
+      },
+      {
+        "image": "assets/recipes/104361302/step-12.jpg",
+        "label": "原作步骤 12"
+      },
+      {
+        "image": "assets/recipes/104361302/step-13.jpg",
+        "label": "原作步骤 13"
+      },
+      {
+        "image": "assets/recipes/104361302/step-14.jpg",
+        "label": "原作步骤 14"
+      },
+      {
+        "image": "assets/recipes/104361302/step-15.jpg",
+        "label": "原作步骤 15"
+      },
+      {
+        "image": "assets/recipes/104361302/step-16.jpg",
+        "label": "原作步骤 16"
+      },
+      {
+        "image": "assets/recipes/104361302/step-17.jpg",
+        "label": "原作步骤 17"
+      },
+      {
+        "image": "assets/recipes/104361302/step-18.jpg",
+        "label": "原作步骤 18"
+      },
+      {
+        "image": "assets/recipes/104361302/step-19.jpg",
+        "label": "原作步骤 19"
+      },
+      {
+        "image": "assets/recipes/104361302/step-20.jpg",
+        "label": "原作步骤 20"
+      },
+      {
+        "image": "assets/recipes/104361302/step-21.jpg",
+        "label": "原作步骤 21"
+      }
+    ],
+    "safetySource": {
+      "title": "FoodSafety.gov：安全中心温度表",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  }
+]
