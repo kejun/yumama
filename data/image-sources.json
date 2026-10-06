@@ -1,0 +1,398 @@
+[
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/cover.jpg",
+    "sourceUrl": "https://i2.chuimg.com/50e33aea182d11e7947d0242ac110002_1280w_1024h.jpg?imageView2/1/w/640/h/520/q/75/format/jpg",
+    "width": 640,
+    "height": 520,
+    "bytes": 90943,
+    "sha256": "a5dcc302a92a65f0b9fe2f1db3d8894a558c88851e659e1dc67e72028ac6dc60"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-01.jpg",
+    "sourceUrl": "https://i2.chuimg.com/ebf8eebe183011e7947d0242ac110002_1080w_1920h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 720,
+    "height": 1280,
+    "bytes": 145540,
+    "sha256": "3c15cc65ccf89895ffac307d32da20ed3da70603cb0415d70c16b91395ab5c68"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-02.jpg",
+    "sourceUrl": "https://i2.chuimg.com/2c9d52f4183411e7bc9d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 960,
+    "height": 1280,
+    "bytes": 266923,
+    "sha256": "1d854641e0f9f572b40f9c773fb4dfea03eeb4cccf645a7c206b52f5bf424dda"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-03.jpg",
+    "sourceUrl": "https://i2.chuimg.com/361a241a183411e7bc9d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 960,
+    "height": 1280,
+    "bytes": 169992,
+    "sha256": "50acf931892b0d5187cf47e3e8596448a4f70b990c4af0a16b79f44ccf9ad714"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-04.jpg",
+    "sourceUrl": "https://i2.chuimg.com/9a9d9692183411e7bc9d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 960,
+    "height": 1280,
+    "bytes": 226479,
+    "sha256": "b16bcdf6e40e3a5bc3ab698ef3d44935e64cb6785232e05aebb398a05d5075f7"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-05.jpg",
+    "sourceUrl": "https://i2.chuimg.com/5df1223a183511e7947d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 960,
+    "height": 1280,
+    "bytes": 187126,
+    "sha256": "08bdeb7bfa1d08df2441da01af06c259f2a508e111542b3a93d250b500bea00e"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-06.jpg",
+    "sourceUrl": "https://i2.chuimg.com/6a0afa72183611e7bc9d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 960,
+    "height": 1280,
+    "bytes": 167442,
+    "sha256": "74b3b87a4faa6f8739178b9d0c3825393f6c91586d0588569554f8ece8850a47"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-07.jpg",
+    "sourceUrl": "https://i2.chuimg.com/aab8c872183811e7bc9d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 148760,
+    "sha256": "ccbf7f9f09440eaf8bb1c6f8706e4e1564e6b8c3ab08823f4489f824d0c640ad"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-08.jpg",
+    "sourceUrl": "https://i2.chuimg.com/444d3e5c183711e7bc9d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 37038,
+    "sha256": "05e50de5a7739378a64aa9699e76da49a6a56ed1a527b306f3c1b0894b0af2a9"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-09.jpg",
+    "sourceUrl": "https://i2.chuimg.com/a85b27f6183711e7bc9d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 81520,
+    "sha256": "659fbe28a39b955b8462e0af57a050fa7e6dac08b17218f4badfb4bd67c84ef9"
+  },
+  {
+    "recipeId": "102248621",
+    "path": "assets/recipes/102248621/step-10.jpg",
+    "sourceUrl": "https://i2.chuimg.com/b1269b12183811e7bc9d0242ac110002_2448w_3264h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 148878,
+    "sha256": "824e6f704e79b5723b746307fff9d5ddbac1b9ce87e218365805573f26cbc488"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/cover.jpg",
+    "sourceUrl": "https://i2.chuimg.com/8823e14ef9ff470095f01cb000343128_1124w_1500h.jpg?imageView2/1/w/640/h/520/q/75/format/jpg",
+    "width": 640,
+    "height": 520,
+    "bytes": 95232,
+    "sha256": "28ba3a78aab4193395d04772ea13ce407207c66267e5b768de796a7b00a3d423"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-01.jpg",
+    "sourceUrl": "https://i2.chuimg.com/1684961e4a1b4504941c28804a5a8b3f_1124w_1500h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 79063,
+    "sha256": "a3c66e6e55a1a46fcff5672a9b25f61e4baeb60e2e8f6be72c3e0ac612d1c98c"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-02.jpg",
+    "sourceUrl": "https://i2.chuimg.com/c5c517e1382f42faab639b04ea434068_1126w_1132h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 121727,
+    "sha256": "a36ac239e05e209824eadb181e4a3ab07a7c9460ffa110a6400de283424861c6"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-03.jpg",
+    "sourceUrl": "https://i2.chuimg.com/c8d6b77f02e446739e58746dcec24d88_1124w_1124h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 156134,
+    "sha256": "c38f27266cc8177d2480c3beb79beb25351b3e970eca968ac1334392fbbd6f87"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-04.jpg",
+    "sourceUrl": "https://i2.chuimg.com/be6df5b479f64056b391b480f3d03632_1126w_1124h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 49917,
+    "sha256": "cd97d4c161af2ce5ace9bdc7201b86bf9e9c484fa510a65b9e1915874499da9e"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-05.jpg",
+    "sourceUrl": "https://i2.chuimg.com/9166c6aec8bd451d95d388ad47667ed8_1124w_1500h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 165287,
+    "sha256": "fb56f34a3737a2efbb6c5086f8ea21d2a5e91931a3061073339ee3aa4e58edc8"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-06.jpg",
+    "sourceUrl": "https://i2.chuimg.com/a05056dcd8db45678d52005addf4cece_1124w_1500h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 83328,
+    "sha256": "8b0dd2d42da0c0cc4b2b2a3afc9dc81165e3d39bb5ab354098b178eba40e3b33"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-07.jpg",
+    "sourceUrl": "https://i2.chuimg.com/2dba0ed5eeae4f5d9062c025b129006e_1124w_1500h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 160697,
+    "sha256": "b8f1397be11f4db96736ec55f5ec31a6135571bb2a8dcae1df2e9e3f19267610"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-08.jpg",
+    "sourceUrl": "https://i2.chuimg.com/27af87b30b6f4e64b5bf79ae48ec8e0a_1124w_1500h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 141645,
+    "sha256": "f9f40d2d6e768f5b80b99beb586bc0d4aaa9810efc33cfba78d939bcf2174ed1"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-09.jpg",
+    "sourceUrl": "https://i2.chuimg.com/e7dc55b16a544de0bc67e6c6e3f59dd7_1124w_1500h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 125421,
+    "sha256": "e65edbca0d253b4b3f53a54c1aa3cad0162d1e4a0c8444a39f53ecb0d51905e9"
+  },
+  {
+    "recipeId": "103730028",
+    "path": "assets/recipes/103730028/step-10.jpg",
+    "sourceUrl": "https://i2.chuimg.com/561ec8465f6549e6a21297748f32e4af_1124w_1500h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 98807,
+    "sha256": "5b550f8476fcfa1ee7eb4ee5c6471a6f55ff4a3a2d35b840299d38827cbb70c5"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/cover.jpg",
+    "sourceUrl": "https://i2.chuimg.com/1d8d97a7d56b4beaada99e2f0fbbdad3_1280w_1023h.jpg?imageView2/1/w/640/h/520/q/75/format/jpg",
+    "width": 640,
+    "height": 520,
+    "bytes": 61419,
+    "sha256": "d33d17e580fc30a84f50e34d5493da77be4dcd26bc8b457a79d9b225fc760217"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-01.jpg",
+    "sourceUrl": "https://i2.chuimg.com/843745983f394591ade9d295cef34e56_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 86491,
+    "sha256": "3aa6ede51b1f5788083f512ed8c66cb731693f2112c04c7782471f87ddc35236"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-02.jpg",
+    "sourceUrl": "https://i2.chuimg.com/2ef21ed3bda34b82a9d047203d62213d_1656w_1242h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 69383,
+    "sha256": "8809845a0b25c760f0b615505f6b2db28ed5d402df76ed8c18da1a0881fe2b6b"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-03.jpg",
+    "sourceUrl": "https://i2.chuimg.com/11b8c0f10e8b46a8ad55a5a551d32c6a_1242w_1656h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 56395,
+    "sha256": "f7b26846fd42d8fd9d7b49663917a5af0f82516da763e6d45f16ecab05521ebf"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-04.jpg",
+    "sourceUrl": "https://i2.chuimg.com/6f7beadd54af48868a5943bd2fa2f68c_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 68446,
+    "sha256": "1d10580f6c9f5cbe6d3de10ac954417b75ce06b269e21fa64afd63f96aceffce"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-05.jpg",
+    "sourceUrl": "https://i2.chuimg.com/b79d352c9ec74c3cbee20b857c0faa58_1242w_1656h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 52241,
+    "sha256": "8df105b873e0ba50f3d0ad0e288dcc0c6f3d52128954bb1081c8471024bc705c"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-06.jpg",
+    "sourceUrl": "https://i2.chuimg.com/089cdc39537849b2bcc674f31709714d_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 105831,
+    "sha256": "dc8eace3b79168071d8a915091f9d3d903d4c9eeaad163f6ef446d00931b1f98"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-07.jpg",
+    "sourceUrl": "https://i2.chuimg.com/6e1990f86db44cb1a951cfd9121ff39e_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 106444,
+    "sha256": "51857baf5658c568d96e550234668d888def0258699b5d5f5758999eebd6101e"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-08.jpg",
+    "sourceUrl": "https://i2.chuimg.com/a83f64d75f0f49669a141f3d0cfff57d_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 92327,
+    "sha256": "a5107a9e97ee193e872e5f30c8335e80ad61578a571ea858094d99f8d3c3ae8f"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-09.jpg",
+    "sourceUrl": "https://i2.chuimg.com/5a9389193c5349308899a9358b69ca09_800w_671h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 97491,
+    "sha256": "0f1441497bfaaf386f0fd37b236a7790a8227e9d1e3634b0db878663f7740df9"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-10.jpg",
+    "sourceUrl": "https://i2.chuimg.com/403b2531863243bd8e2c504dfe27dc60_1242w_1656h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 51870,
+    "sha256": "9bac1944d99087b42d1329eaa4f54ee965f0b4e363504a60a0193b331c34698a"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-11.jpg",
+    "sourceUrl": "https://i2.chuimg.com/6f3e650846274b74b702bebaf2cbc21c_1656w_1242h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 62292,
+    "sha256": "a151fa10a3babbd5eafd01e195f2836415981b9e1ab23c3b35c73d95df0bfa96"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-12.jpg",
+    "sourceUrl": "https://i2.chuimg.com/01e85f19f9ba47d38c07236fa6ded933_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 77959,
+    "sha256": "1c0453fe9919553aa8ba0e5cd996b4e5e5a65adae41a9dd56313a8c2510b0653"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-13.jpg",
+    "sourceUrl": "https://i2.chuimg.com/6f09d580b7d34efba6e5c3b57b26a131_1242w_1656h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 66069,
+    "sha256": "ef7560783090e7ee960e8f3cf433255b1b243bf9df5c77711dac9617e05ba2f9"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-14.jpg",
+    "sourceUrl": "https://i2.chuimg.com/9268b4d0314a454da59c3a7fa38a3f55_1242w_1656h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 96369,
+    "sha256": "41fdfab0a87b896823394acd1c7e403c8ff826eef243bc8720958126482c099c"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-15.jpg",
+    "sourceUrl": "https://i2.chuimg.com/c73943c9b4f54b0ca6de1b2f3246c357_2208w_1242h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 37804,
+    "sha256": "b676d3304dbf71320cb9c81c001857ebf9f739f0d17cee06eb1011ad8c343756"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-16.jpg",
+    "sourceUrl": "https://i2.chuimg.com/9a9527a647154f79a3ee42f49abe300f_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 80888,
+    "sha256": "4dd26e3d2476bda4a10c2d9822ad75e2356fa7d00a968354f640a816197fa8a6"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-17.jpg",
+    "sourceUrl": "https://i2.chuimg.com/e9b663f3c11b4de28f7ba47055b893f4_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 73709,
+    "sha256": "a644314304670dac2b3ed187551fb7518743304c6284fc4a823615b3ecd281b9"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-18.jpg",
+    "sourceUrl": "https://i2.chuimg.com/819dbe142ff742f6907feef553d7a1c3_1280w_1024h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 70127,
+    "sha256": "92565b1fc34661b0463e8aabd6252c0701593c4550a75fea530f736bfd5dcc94"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-19.jpg",
+    "sourceUrl": "https://i2.chuimg.com/33dea6dd71d5409296b2a5a4fd6750b1_1242w_1656h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 90224,
+    "sha256": "1605c51c394e13a7fbe69d79cca5156b0ba6b27872e5990cc9713a2337aa02b3"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-20.jpg",
+    "sourceUrl": "https://i2.chuimg.com/2fe0f415cc1b4aa885ebf2a80c23328f_908w_726h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 74638,
+    "sha256": "bd3c48e66f2bcc75048c790c1e4d23d7ac9bfc99226a3975549aadd3015eeb42"
+  },
+  {
+    "recipeId": "104361302",
+    "path": "assets/recipes/104361302/step-21.jpg",
+    "sourceUrl": "https://i2.chuimg.com/033f4fb757fb46c4a2bc4b5388bfa01b_1139w_911h.jpg?imageView2/1/w/800/h/600/q/75/format/jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 74750,
+    "sha256": "eacb6a32c3e4ec8b299529b74a55322a1cea4097ba4644a13cc4c24b001e1ff9"
+  }
+]
