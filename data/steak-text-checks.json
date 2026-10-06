@@ -1,0 +1,121 @@
+{
+  "recipeId": "104361302",
+  "sourceUrl": "https://m.xiachufang.com/recipe/104361302/",
+  "suppliedScreenshots": [
+    "6922.jpeg",
+    "6923.jpeg",
+    "6924.jpeg",
+    "6925.jpeg",
+    "6921.jpeg",
+    "662a60aa75ea12bd74cf42ff2b0233e4.jpeg"
+  ],
+  "stepCount": 21,
+  "introductionSha256": "5f3e80cc0a4ffde66c7f45d55c61b7289a053c7ea2c9850b25da7477d8f2d467",
+  "steps": [
+    {
+      "number": 1,
+      "sha256": "3548934e35521f3a5c63c6083409391e84aaaa72c6673ee62460507359848a92",
+      "characters": 234
+    },
+    {
+      "number": 2,
+      "sha256": "475d0a8e1f0c097cf31155b86a852b9a47ab38e61f7daca9f9a01cf6bcc6f181",
+      "characters": 110
+    },
+    {
+      "number": 3,
+      "sha256": "0c4d13aab651de27cdb89dfddad52c5e22e110eb86287bd49518a08a1df516a8",
+      "characters": 706
+    },
+    {
+      "number": 4,
+      "sha256": "989078e5e6c84926588f1c6a059f27f0e7510e5b2f6b25661e529311bd37a643",
+      "characters": 338
+    },
+    {
+      "number": 5,
+      "sha256": "46105b8ec07a4986ff56111934d0fe559c647686851657231b83c7b1d7895484",
+      "characters": 372
+    },
+    {
+      "number": 6,
+      "sha256": "7d49cba167daac811e57f470e3657680aaa28b79bae1ec0a39a8bd120441b2a3",
+      "characters": 268
+    },
+    {
+      "number": 7,
+      "sha256": "8b169f4f2cf3eda3e80e7e2b1202d0c110d11105b929da2dc3d9c62c735a5be2",
+      "characters": 78
+    },
+    {
+      "number": 8,
+      "sha256": "965d41bcdb6014fc3b6da68ef5b1307bb356046ea00caacb3ad181d4cd30a4ff",
+      "characters": 525
+    },
+    {
+      "number": 9,
+      "sha256": "2fb9d1201307024e08e463bd44badf6ef149b0de8ed23c72ca32ce93c4000d3f",
+      "characters": 19
+    },
+    {
+      "number": 10,
+      "sha256": "f5f09b83f1d1b68cfe9ecca8e11d18e89bc9897771e123a6f3a096f8802e0c7f",
+      "characters": 367
+    },
+    {
+      "number": 11,
+      "sha256": "1ffb65247e7d130502503ba104e575bf46dac1742d5815b816ca6625d8e67465",
+      "characters": 69
+    },
+    {
+      "number": 12,
+      "sha256": "a26130988f9e7cc43c48bf545e18ebdcbfef1a2e9153f62e92a6c87deca7083e",
+      "characters": 358
+    },
+    {
+      "number": 13,
+      "sha256": "52fc1553c989342e4a9da0c76a3cf18981a508785029b243a0324c2cd85022c3",
+      "characters": 245
+    },
+    {
+      "number": 14,
+      "sha256": "c181dd31b8e5d981f969f5ffa0cc78780d1296d4ff7d61eedaaf5cf16d438df6",
+      "characters": 486
+    },
+    {
+      "number": 15,
+      "sha256": "3add91a2ccc04cfe8aa3acc6af4a3100f8040494417c21e0b75ca923490e854e",
+      "characters": 120
+    },
+    {
+      "number": 16,
+      "sha256": "50e7bce6ed37c7ce243c8952bbb8b3798327c1f6d385cc46d95af02bca4e45f3",
+      "characters": 382
+    },
+    {
+      "number": 17,
+      "sha256": "5c6eeff0ccc8cdd7e08232da9b8b830c6bdb68bb57ec847e0373194b2bc2f85a",
+      "characters": 9
+    },
+    {
+      "number": 18,
+      "sha256": "48421a88f8f357bca8b69e91f7d3eea13e5d491f3190c0bf39f0cf6019f131e6",
+      "characters": 144
+    },
+    {
+      "number": 19,
+      "sha256": "9191e7935d5a098c996d4893486b76c1d1064cfc6600fe647ae5bf1ddf24b7d2",
+      "characters": 81
+    },
+    {
+      "number": 20,
+      "sha256": "8cc4508231425d4b5ce8221bdbb4626365da808f7fef37adb661ab32e5368344",
+      "characters": 137
+    },
+    {
+      "number": 21,
+      "sha256": "80e2ea716a2e1bee3f66fe4c170c60e340020d137494039ac76f53cdb242789b",
+      "characters": 20
+    }
+  ]
+}

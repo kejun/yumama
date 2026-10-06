@@ -107,3 +107,54 @@ test('long step prose retains every character, paragraph and final sentence in b
  assert.equal(h.document.querySelector('#cook-text').textContent,text);
  assert.throws(()=>renderProse(null),TypeError);
 });
+
+test('steak keeps all 21 source steps and full introduction without merged or shortened text',async()=>{
+ const r=recipes.find(x=>x.id==='104361302');
+ const checks=JSON.parse(await readFile(path.join(root,'data/steak-text-checks.json'),'utf8'));
+ assert.equal(r.contentMode,'original');assert.equal(r.steps.length,21);
+ assert.equal(createHash('sha256').update(r.introduction).digest('hex'),checks.introductionSha256);
+ const {document}=parseHTML(await read(`recipes/${r.slug}/index.html`));
+ assert.equal(document.querySelector('.recipe-introduction .recipe-prose').textContent,r.introduction);
+ const h=await setup(`recipes/${r.slug}/index.html`);h.click('[data-start-cooking]');
+ for(let i=0;i<21;i++){
+  const s=r.steps[i];assert.deepEqual(s.sourceSteps,[i+1]);
+  assert.equal(createHash('sha256').update(s.text).digest('hex'),checks.steps[i].sha256);
+  assert.equal(s.text.length,checks.steps[i].characters);
+  assert.equal(document.querySelector(`#step-${i+1} .recipe-prose`).textContent,s.text);
+  assert.equal(h.document.querySelector('#cook-text').textContent,s.text);
+  assert.equal(document.querySelector(`#step-${i+1} img`).getAttribute('src'),`../../assets/recipes/104361302/step-${String(i+1).padStart(2,'0')}.jpg`);
+  assert.equal(h.document.querySelector('#cook-image').getAttribute('src'),`../../${s.image}`);
+  h.click('#next-step');
+ }
+ assert.equal(h.dialog.open,false);
+ assert.match(document.querySelector('#steps > .muted').textContent,/原文逐步保留 · 21 步/);
+});
+
+test('steak steps 18–21 match the readable screenshot transcription',()=>{
+ const steps=recipes.find(x=>x.id==='104361302').steps;
+ const expected=[
+ '用大蒜把黄油涂抹开，完成调味的过程。这里需要补充一点：至于迷迭香或百里香这类香草，我个人并不觉得是必须，如果真的喜欢香草的味道，那么加入香草调味的时机是应该在牛排出锅前1分钟左右，太早加入会把香草煎糊，而且应该是把香草放在牛排上，而不是油里去煎，用勺子把锅里的热油不断浇到牛排上的香草上。',
+ '就是这样，在出锅前的2分钟内，把蒜和香草放在牛排上面，用热油去浇。不过，我现在基本不再用这个方法，因为觉得并没有特别的提升，反而容易顾此失彼，错过最佳的出锅时机。',
+ '这块牛排rest大概5分钟。然后我们把它切开。我是按照内芯温度57度来控制的。最后温度计显示温度峰值是58度。应该是在medium到medium rare左右，基本算是国内常说的5分熟。可以看到表面是焦黄的美拉德反应，内部是均匀的粉红色，并没有汁水流出，说明rest得很好。',
+ '最后，enjoy！祝你煎出一块完美牛排。'
+ ];
+ assert.deepEqual(steps.slice(17).map(s=>s.text),expected);
+});
+
+test('restoring source steps preserves ingredient checks but resets obsolete step positions and timers',async()=>{
+ const r=recipes.find(x=>x.id==='104361302');const key=state.KEY+r.id;
+ const initial={
+  [key]:JSON.stringify({ingredients:[0,2],done:[0,1,2,3,4,5],current:6,large:true}),
+  [key+':timer']:JSON.stringify({step:6,duration:300,remaining:300,deadline:400000})
+ };
+ const h=await setup(`recipes/${r.slug}/index.html`,initial);
+ assert.equal(h.document.querySelector('[data-ingredient="0"]').checked,true);
+ assert.equal(h.document.querySelector('[data-ingredient="2"]').checked,true);
+ assert.equal(h.document.querySelector('#timer-panel').hidden,true);
+ h.click('[data-start-cooking]');assert.equal(h.document.querySelector('#cook-title').textContent,'步骤 1');
+ assert.equal(h.document.querySelector('#large-text').getAttribute('aria-pressed'),'true');
+ h.click('#next-step');h.click('#close-cooking');
+ const restored=await setup(`recipes/${r.slug}/index.html`,Object.fromEntries(h.values));restored.click('[data-start-cooking]');
+ assert.equal(restored.document.querySelector('#cook-title').textContent,'步骤 2');
+ assert.equal(restored.document.querySelector('#toast').textContent,'');
+});

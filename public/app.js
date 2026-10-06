@@ -20,11 +20,17 @@ if ($('#search')) {
 const dataElement=$('#recipe-data');
 if (dataElement) initRecipe(JSON.parse(dataElement.textContent));
 function initRecipe(recipe) {
- let progress=normalizeProgress(storage.read(recipe.id,{}),recipe.ingredients.length,recipe.steps.length);
- let timer=normalizeTimer(storage.read(`${recipe.id}:timer`,null),recipe.steps.length);
+ const progressKey=recipe.contentRevision?`${recipe.id}:revision-${recipe.contentRevision}`:recipe.id;
+ const storedProgress=storage.read(progressKey,null);
+ const legacy=recipe.contentRevision&&storedProgress===null?storage.read(recipe.id,null):null;
+ let progress=normalizeProgress(storedProgress??(legacy?{ingredients:legacy.ingredients,large:legacy.large}:{}),recipe.ingredients.length,recipe.steps.length);
+ // Step numbers change when an abridged recipe is restored. Keep ingredients,
+ // but never attach an old step position or timer to a different source step.
+ let timer=normalizeTimer(storage.read(`${progressKey}:timer`,null),recipe.steps.length);
+ if(legacy){storage.write(progressKey,progress);toast('菜谱已恢复原始步骤，食材勾选已保留，步骤进度从头开始。');}
  let timerAnnounced=false;
  const dialog=$('#cooking-dialog');const timerPanel=$('#timer-panel');
- const persist=()=>storage.write(recipe.id,progress);
+ const persist=()=>storage.write(progressKey,progress);
  function updateProgress(){
   $$('[data-ingredient]').forEach(el=>{el.checked=progress.ingredients.includes(Number(el.dataset.ingredient));});
   $('#ingredient-count').textContent=`${progress.ingredients.length} / ${recipe.ingredients.length}`;
@@ -58,7 +64,7 @@ function initRecipe(recipe) {
  $('#previous-step').addEventListener('click',()=>{progress.current=Math.max(0,progress.current-1);persist();renderStep(true);});
  $('#next-step').addEventListener('click',()=>{progress.done=[...new Set([...progress.done,progress.current])];if(progress.current===recipe.steps.length-1){persist();dialog.close();toast('完成啦，趁热开饭！');}else{progress.current++;persist();renderStep(true);}});
  $('#large-text').addEventListener('click',()=>{progress.large=!progress.large;persist();renderStep();});
- const timerKey=`${recipe.id}:timer`;
+ const timerKey=`${progressKey}:timer`;
  function saveTimer(){storage.write(timerKey,timer);}
  function startTimer(index){
   const duration=recipe.steps[index].timerSeconds;if(!duration)return;
