@@ -20,7 +20,7 @@ python3 -m http.server 8080 --directory dist
 
 将 `npm run build` 生成的 `dist/` 目录上传到任意静态托管平台即可。支持站点根路径和子目录，不需要 SPA 路由回退。
 
-GitHub Pages：在仓库 Settings → Pages 中选择 GitHub Actions，运行 **Deploy GitHub Pages** 工作流。该工作流从 `main` 构建和部署，不自动发布功能分支。
+GitHub Pages：在仓库 Settings → Pages 中选择 GitHub Actions。推送或合并到 `main` 后，**Deploy GitHub Pages** 工作流自动检查、构建并发布；也可手动运行。不发布功能分支。默认访问地址为 https://kejun.github.io/yumama/ 。
 
 ## 内容维护
 
