@@ -7,13 +7,15 @@ import {createHash} from 'node:crypto';
 import vm from 'node:vm';
 import {parseHTML} from 'linkedom';
 import * as state from '../public/state.mjs';
+import {renderProse} from '../scripts/prose.mjs';
 const root=path.resolve(import.meta.dirname,'..');
 execFileSync(process.execPath,['scripts/build.mjs'],{cwd:root});
 const recipes=JSON.parse(await readFile(path.join(root,'data/recipes.json'),'utf8'));
 const app=(await readFile(path.join(root,'public/app.js'),'utf8')).replace(/^import[^\n]+\n/,'');
 const read=p=>readFile(path.join(root,'dist',p),'utf8');
-async function setup(file='recipes/braised-hairtail/index.html',initial={},navigator={}){
+async function setup(file='recipes/braised-hairtail/index.html',initial={},navigator={},recipeOverride=null){
  const {document,window:domWindow}=parseHTML(await read(file));
+ if(recipeOverride)document.querySelector('#recipe-data').textContent=JSON.stringify(recipeOverride);
  Object.defineProperty(document,'visibilityState',{value:'visible',configurable:true});
  const values=new Map(Object.entries(initial));const intervals=[];const clock={now:100000};const listeners={};
  const dialog=document.querySelector('dialog');
@@ -87,4 +89,21 @@ test('wake lock handles unsupported browsers, acquired lock, close race and reje
  const supported=await setup(undefined,{}, {wakeLock:{request:()=>new Promise(r=>resolve=r)}});Object.defineProperty(supported.document,'visibilityState',{value:'visible',configurable:true});
  supported.click('[data-start-cooking]');supported.click('#wake-lock');supported.click('#close-cooking');resolve(lock);await new Promise(r=>setImmediate(r));assert.equal(released,1);assert.equal(supported.document.querySelector('#wake-lock').getAttribute('aria-pressed'),'false');
  const rejected=await setup(undefined,{}, {wakeLock:{request:async()=>{throw Error('denied');}}});Object.defineProperty(rejected.document,'visibilityState',{value:'visible',configurable:true});rejected.click('[data-start-cooking]');rejected.click('#wake-lock');await new Promise(r=>setImmediate(r));assert.match(rejected.document.querySelector('#wake-status').textContent,/无法保持常亮/);
+});
+
+
+test('long step prose retains every character, paragraph and final sentence in both reading modes',async()=>{
+ const text='介绍：保留空行、标点、数量和提示。\n\n'+
+  Array.from({length:160},(_,i)=>`第 ${i+1} 个说明段：这是用于验证排版的原创测试内容。数值 0.5、符号 < > & 不应改变。`).join('\n\n')+
+  '\n\n最后一句：内容必须完整显示。';
+ const {document}=parseHTML(renderProse(text));
+ assert.equal(document.querySelector('.recipe-prose').textContent,text);
+ assert.equal(document.querySelectorAll('script').length,0);
+ const recipe=structuredClone(recipes[1]);recipe.steps[0].text=text;
+ const h=await setup(undefined,{}, {},recipe);h.click('[data-start-cooking]');
+ assert.equal(h.document.querySelector('#cook-text').textContent,text);
+ h.click('#large-text');assert.equal(h.document.querySelector('#cook-text').textContent,text);
+ h.click('#next-step');h.click('#previous-step');
+ assert.equal(h.document.querySelector('#cook-text').textContent,text);
+ assert.throws(()=>renderProse(null),TypeError);
 });
